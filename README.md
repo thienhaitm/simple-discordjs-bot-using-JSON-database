@@ -1,2 +1,5 @@
 # simple-discordjs-bot-using-JSON-database
-this code for discordjs 
+this code using nodejs
+modules:
+discord.js
+fs
