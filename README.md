@@ -11,7 +11,7 @@ get nodejs at https://nodejs.org/en/
 
 after you got your token and nodejs . download this code or fork it
 
-go to index.js file , find const { token } and replace "your_token" with your bot token
+go to index.js file , find const token  and replace "your_token" with your bot token
 
 type npm i discord.js fs
 
