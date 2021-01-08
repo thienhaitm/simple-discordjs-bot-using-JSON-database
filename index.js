@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const fs = require('fs'); // use to write new command
 const prefix = ('>'); // change > to any prefix you want
+const token = "your_token";
 const cmd = require('./command.json'); // command database
 // ^ library
 client.on('ready', () => {
