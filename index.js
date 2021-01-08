@@ -42,10 +42,10 @@ if (message.content.indexOf(prefix) !== 0) return;
 			}
 		
 	
-		return;
+	
 	}else {
 		if (!cmd[cmmd]) {
-			return console.log(`no command found`;
+			return console.log(`no command found`);
 					   // or somthing you want
 		}
 		if (cmd[cmmd]) {
@@ -55,5 +55,5 @@ if (message.content.indexOf(prefix) !== 0) return;
 		}
 	}
 });
-client.login(process.env.TOKEN);
+client.login(token);
 	// login
