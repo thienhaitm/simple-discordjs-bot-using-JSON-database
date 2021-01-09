@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const fs = require('fs'); // use to write new command
 const prefix = ('>'); // change > to any prefix you want
-const token = "your_token";
+const token = "your_token"; // don't remove the " "
 const cmd = require('./command.json'); // command database
 // ^ library
 client.on('ready', () => {
@@ -55,5 +55,5 @@ if (message.content.indexOf(prefix) !== 0) return;
 		}
 	}
 });
-client.login(token);
+client.login(token); // don't remove this or bot will not work
 	// login
